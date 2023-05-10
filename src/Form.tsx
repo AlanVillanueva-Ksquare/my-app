@@ -138,7 +138,9 @@ const Form = () => {
           </select>
         </fieldset>
         <fieldset style={{ border: "none", marginRight: "8px" }}>
-          <label style={{ marginRight: 8 }} htmlFor="degree"></label>
+          <label style={{ marginRight: 8 }} htmlFor="degree">
+            Prefered month for admission exam:
+          </label>
           <input
             type="radio"
             id="january"
